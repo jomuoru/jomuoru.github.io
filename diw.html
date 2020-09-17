@@ -1,2 +1,42 @@
-DIW
-jomuoru 20-21
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIW ## 2021</title>
+    <style type="text/css">
+    #stage {
+    margin: 1em auto;
+      -webkit-perspective: 1200px;
+      -moz-perspective: 1200px;
+      -ms-perspective: 1200px;
+      perspective: 1200px;
+    }
+      @-webkit-keyframes spinner {
+        from { -webkit-transform: rotateY(0deg);    }
+        to   { -webkit-transform: rotateY(-360deg); }
+      }
+    
+      @keyframes spinner {
+        from {
+          -moz-transform: rotateY(0deg);
+          -ms-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+        }
+        to {
+          -moz-transform: rotateY(-360deg);
+          -ms-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+        }
+      }
+    
+    </style>
+</head>
+<body>
+    
+  <div id="stage" style="background: rgba(0,0,0,0.5);">
+    <p id="spinner" style="background: rgba(0,0,0,0.5); text-align: center; color: #fff;">Stop, I'm getting dizzy!</p>
+  </div>
+  
+</body>
+</html>
